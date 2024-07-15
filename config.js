@@ -31,7 +31,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOh
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "13305972014";
+global.sudo = process.env.SUDO || "254723780545";
 global.owner = process.env.OWNER_NUMBER || "254723780545";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -42,8 +42,8 @@ global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "typing";
-global.readcmds = process.env.READ_COMMAND || "false";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readcmds = process.env.READ_COMMAND || "true";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -62,10 +62,10 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-͓̽C͓͓̽̽O͓͓̽̽D͓͓̽̽E͓̽_͓̽I͓͓̽̽T͓̽ ͓̽B͓͓̽̽O͓͓̽̽T͓̽😍",
-  author: process.env.PACK_AUTHER || "𝑴𝑹. 𝑷𝑬𝒀𝑾𝑨",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-͓̽KINGH BOT😍",
+  author: process.env.PACK_AUTHER || "𝑴𝑹. KINGH",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "͓̽C͓͓̽̽O͓͓̽̽D͓͓̽̽E͓̽_͓̽I͓͓̽̽T͓̽ ͓̽B͓͓̽̽O͓͓̽̽T͓̽",
+  botname: process.env.BOT_NAME || "͓̽KINGH ͓̽B͓͓̽̽O͓͓̽̽T͓̽",
   ownername: process.env.OWNER_NAME || "𝑴𝑹. KINGH",
   errorChat: process.env.ERROR_CHAT || "923192173398",
   KOYEB_API: process.env.KOYEB_API || "false",
